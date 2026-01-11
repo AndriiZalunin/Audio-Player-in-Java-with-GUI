@@ -1,0 +1,80 @@
+.root{
+    -fx-background-color: #3d3d3d;
+    -fx-background-radius:10px;
+    -fx-base: #3d3d3d;
+}
+
+.button{
+    -fx-background-color: orange;
+    -fx-padding: 5px;
+    -fx-background-radius:15px;
+    -fx-text-fill: #1f1f1f;
+}
+.button:hover{
+    -fx-background-color: #fc9403;
+}
+.label{
+    -fx-text-fill: #e6e6e6;
+}
+.text-field{
+    -fx-border-radius:15px;
+    -fx-background-color: #3d3d3d;
+    -fx-border-color: orange;
+    -fx-text-fill: #e6e6e6;
+}
+.slider .track{
+    -fx-background-color: linear-gradient(to right, #ffbf00, #ff8400);
+}
+.slider .thumb{
+    -fx-background-color: orange;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 15px;
+    -fx-border-width: 1px;
+
+    -fx-border-radius: 10;
+    -fx-border-color: #e6e6e6;
+}
+.combo-box{
+    -fx-background-color: #3d3d3d;
+    -fx-background-radius: 10px;
+}
+.list-cell:even{
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: #e6e6e6;
+}
+.list-cell:odd{
+    -fx-background-color: #5c5c5c;
+    -fx-text-fill: #e6e6e6;
+}
+.list-cell:filled:selected{
+    -fx-background-color: orange;
+    -fx-text-fill: #1f1f1f;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+.tree-view .tree-cell{
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #e6e6e6;
+}
+.tree-cell:selected {
+    -fx-font-weight: bold;
+}
+#S_createButton, #S_deleteButton, #S_editButton, #S_selectButton{
+    -fx-background-radius:10px;
+}
+#play_pauseButton, #lastButton, #M_nextButton{
+    -fx-padding: 0;
+    -fx-font-size: 30;
+    -fx-background-radius:15px;
+}
+#closeButton, #minimizeButton{
+    -fx-text-fill: #e6e6e6;
+    -fx-background-radius:0px;
+    -fx-background-color:#3d3d3d;
+}
+#closeButton:hover{
+    -fx-background-color:#ff3030;
+}
+#minimizeButton:hover{
+    -fx-background-color:#545454;
+}
